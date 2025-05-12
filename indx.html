@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impacto das Queimadas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMQ2n6p3o7ZqT9ZyN5hD6F1B+2A1X1Q9aVdLh" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #ff2600;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .conteudo {
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 800px;
+        }
+
+        .cta-button,
+        .cta-footer {
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #007BFF;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Impacto das Queimadas</h1>
+        <img src="img/download.jpeg1"
+            alt="Foto das Cataratas do Iguaçu, um lugar com muitas árvores e mata nativa preservada."
+            style="max-width:1000px; height:auto;">
+        <p>A Amazônia tem enfrentado um número recorde de queimadas nos últimos anos, com a temporada de 2024
+            registrando o maior número de focos em 17 anos,</p>
+        <nav>
+            <ul>
+                <li><a href="#problemas">Os Problemas</a></li>
+                <li><a href="#consequencias">Consequências</a></li>
+                <li><a href="#conclusao">Conclusão</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="problemas" class="conteudo">
+            <h2>Os Problemas</h2>
+
+            <!-- Problema 1 -->
+            <article>
+                <h3>Aumento das queimadas</h3>
+                <p>A destruição da vegetação reduz a biodiversidade, libera gases de efeito estufa, piora a qualidade do
+                    ar e afeta a saúde, além de causar prejuízos para atividades como agricultura e turismo</p>
+            </article>
+
+            <!-- Problema 3 -->
+            <article>
+                <h3>Redução da qualidade de vida</h3>
+                <p> A fumaça liberada pelas queimadas contém substâncias tóxicas que irritam os olhos, nariz e garganta,
+                    além de poder causar problemas respiratórios como asma e bronquite, especialmente em crianças e
+                    idosos. A poluição do ar também pode aumentar o risco de doenças cardiovasculares.
+                </p>
+            </article>
+
+            <!-- Botão para vídeo -->
+            <a href="https://www.youtube.com/watch?v=XsYhhYii2Es&t=8s" class="cta-button" target="_blank">Como impacta o
+                mundo? <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </section>
+
+        <!-- Seção de consequências -->
+        <section id="consequencias" class="conteudo">
+            <h2>Consequências</h2>
+            <ul>
+                <li>Destruição de habitats</li>
+                <li>Poluição do ar e água</li>
+                <li>Alteração do solo</li>
+                <li>Emissões de gases de efeito estufa</li>
+                <li>Destruição de infraestrutura</li>
+                <li>Consequências para a Saúde</li>
+            </ul>
+        </section>
+
+        <!-- Conclusão -->
+        <section id="conclusao" class="conteudo">
+            <h2>Conclusão</h2>
+            <p>As queimadas são um problema ambiental e de saúde pública de grande magnitude, com impactos
+                significativos e duradouros. Elas afetam a biodiversidade, a qualidade do ar e a saúde humana, além de
+                contribuírem para o aquecimento global</p>
+
+            <!-- Vídeo incorporado -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ILh7nDEKGqc?si=feol6sZCHo1Cg-jQ"
+                title="YouTube video." allowfullscreen></iframe>
+        </section>
+
+        <!-- Seção de contato -->
+        <section id="contato" class="conteudo">
+            <h2>Contato</h2>
+            <p>Se você deseja saber mais ou se envolver na causa, entre em contato:</p>
+            <form action="#" method="post">
+                <label for="name">Nome:</label><br />
+                <input type="text" id="name" name="name"><br />
+                <label for="email">Email:</label><br />
+                <input type="email" id="email" name="email"><br />
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <!-- Link para LinkedIn -->
+        <a href="https://www.linkedin.com/in/femascheti" class="cta-footer">Faça parte dessa causa!</a><br />
+        <!-- Informações de copyright -->
+        <p>&copy; 2025 | @femascheti</p>
+    </footer>
+
+</body>
+
+</html>
